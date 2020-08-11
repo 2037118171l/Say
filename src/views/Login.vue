@@ -34,7 +34,7 @@
                         <div style="float: left;margin-left: -20px">
                             <el-button type="primary" @click="onSubmit">登录</el-button>
                         </div>
-                        <div style="float: left;margin-left:35%">
+                        <div style="float: left;margin-left:30%">
                             <el-button type="primary" @click="dialogaddFormVisible = true">注册</el-button>
                         </div>
                     </div>

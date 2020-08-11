@@ -85,7 +85,7 @@
             </el-form-item>
             <el-form-item label="生日:" :label-width="formLabelWidth">
 <!--                <el-input v-model="updataform.birthday" autocomplete="off"></el-input>-->
-                <div class="block">
+                <div class="block" style="width:210px ">
                     <el-date-picker
                             v-model="updataform.birthday"
                             type="date"

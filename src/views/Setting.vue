@@ -26,7 +26,7 @@
     </div>
 <!--    关注-点赞-寄信-粉丝-->
     <div class="dynamic">
-        <div style="margin: 15px 30px;">
+        <div style="margin: 15px 20px;">
             <div>
                 <van-icon name="like-o" size="40px"  color="#46a3ff"/>
             </div>
@@ -53,7 +53,7 @@
             </div>
             </router-link>
         </div>
-        <div style="margin: 15px 30px;">
+        <div style="margin: 15px 20px;">
             <div>
                 <van-icon name="flower-o"  size="40px"  color="#46a3ff"/>
             </div>
