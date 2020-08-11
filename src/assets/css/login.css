@@ -1,0 +1,90 @@
+/**
+    最外层容器
+*/
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    /*margin-left: -10px;*/
+    width: 100%;
+     background-color: #3d4042;
+
+}
+.views{
+    height: 100%;
+    width: 100%;
+    background-image: url("../imgs/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+/**
+    表单容器
+*/
+.box{
+    margin-top: 200px;
+    margin-left: 10%;
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    padding-top: 50px;
+    padding-right: 10%;
+    background-color: rgba(240, 248, 255, 0.2);
+    /* 对浏览器的兼容 */
+    filter: alpha(opacity=80); /*0 代表的是隐藏，就是透明度最低。*/
+    opacity: 0.8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -10px 10px 50px 10px rgb(80, 75, 88);
+
+}
+/* 对from里面的input输入框改背景颜色*/
+.login-form-input .el-input__inner {
+     background-color: rgba(248, 233, 238, 0.8);
+}
+.forgetpsd {
+    float: right;
+    font-size: 12px;
+    margin-right: 13%;
+    margin-top: -7%;
+    text-decoration: underline;
+}
+
+.forgetpsd:hover {
+    color: red;
+    cursor: pointer;
+    transition-duration: 0.2s;;
+}
+/* qq登录的logo*/
+.qqlogo{
+    float: left;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    background: url("../imgs/QQlogo.png");
+    background-size: 100% 100%;
+}
+/* 微信登录的logo*/
+.wechatlogo{
+    float: left;
+    margin-left:30%;
+    height: 30px;
+    width: 30px;
+    background: url("../imgs/wechatlogo.png");
+    background-size: 100% 100%;
+}
+/*自定义diaiog弹窗的样式*/
+.customStyle{
+    top: 12vh;
+    width: 80%;
+}
+.customStyle{
+    font-size: 13px;
+    width: 80%;
+}

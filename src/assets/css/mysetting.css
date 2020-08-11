@@ -1,0 +1,80 @@
+/**
+    最外层容器
+*/
+.mysetting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+
+}
+.viewbox{
+    width: 100%;
+    height: 18%;
+    background: #beeee9;
+}
+.imgbox{
+    width:5rem;
+    height:5rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.nemebox{
+    height: 40px;
+    width: 50%;
+    line-height: 40px;
+    font-size: 18px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.signature{
+    height: 40px;
+    width: 70%;
+    line-height: 40px;
+    font-size: 14px;
+    color: #3d4042;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+
+.dynamic{
+    width: 90%;
+    height: 13%;
+    margin: -10px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgb(221, 213, 234);
+}
+.sets{
+    width: 90%;
+    height: 50%;
+    margin: 30px auto;
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 2px rgb(212, 211, 215);
+}
+.customStyles{
+    width: 80%;
+    /*font-size: 18px;*/
+}
+.person{
+    width: 95%;
+    margin: 20px auto;
+    line-height: 80px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgb(221, 213, 234);
+}
+.search-icon {
+    font-size: 16px;
+    line-height: inherit;
+}
